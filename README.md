@@ -18,6 +18,7 @@ real hospital questions like length of stay and admissions by department.
 | `02_length_of_stay_by_diagnosis.sql` | What is the average stay for each diagnosis? |
 | `03_admissions_by_city.sql` | How many admissions come from each city? (first JOIN) |
 | `04_admissions_by_age_group.sql` | How many admissions are there in each age group? (CASE and CTE) |
+| `05_top_diagnoses_by_department.sql` | What are the top 2 diagnoses in each department? (window function) |
 ## Tables
 - `patients`: patient_id, sex, birth_year, city
 - `admissions`: admission_id, patient_id, admit_date, discharge_date, department, diagnosis, outcome
